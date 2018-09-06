@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-
+//my comment from NewDocumentation
 namespace SolrNet.Impl.FieldSerializers {
     /// <summary>
     /// Serializes datetime fields
