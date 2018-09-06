@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-//my comment from NewDocumentation
+//my comment from TestDocumentation
 namespace SolrNet.Impl.FieldSerializers {
     /// <summary>
     /// Serializes datetime fields
@@ -26,7 +26,7 @@ namespace SolrNet.Impl.FieldSerializers {
         public static readonly string DateTimeFormat = "yyyy-MM-dd'T'HH:mm:ss.FFF'Z'";
 
         public static string SerializeDate(DateTime dt) {
-            return dt.ToUniversalTime().ToString(DateTimeFormat, CultureInfo.InvariantCulture);
+            return dt.ToString(DateTimeFormat, CultureInfo.InvariantCulture);
         }
 
         public override IEnumerable<PropertyNode> Parse(DateTime obj) {
