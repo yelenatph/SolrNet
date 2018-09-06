@@ -1,13 +1,13 @@
 # Faceting
-
+This is change I want to commit
 SolrNet supports [faceted searching](https://cwiki.apache.org/confluence/display/solr/Faceting).
-
+One more commit is added
 There are basically three kinds of facet queries:
 
  1. querying by field
  1. date facets
  1. arbitrary facet queries
-
+This change I don't want to commit
 Facet queries are issued through the `FacetQueries` property of `QueryOptions`. Then the `QueryOptions` instance is passed to the server instance.
 
 #### Facet Limits
@@ -39,6 +39,7 @@ foreach (var facet in r.FacetFields["category"]) {
 ```
 
 ### Date facets
+### Date facets is another my change
 Date facet queries create facets from date ranges. Sample code:
 
 ```C#
