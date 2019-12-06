@@ -1,2 +1,3 @@
 this is new file
 this is first commit for fast forward merge
+this is second commit for fast forward merge
